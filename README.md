@@ -2,7 +2,7 @@
     <img src="worldguard-logo.svg" alt="WorldGuard" width="400" /> 
 </h1>
 
-    WorldGuard-OG is a soft fork of [WorldGuard](https://github.com/EngineHub/WorldGuard) maintained by [TrueOG Network](https://true-og.net) for 1.19.4. WorldGuard lets you and players guard areas of land against griefers and undesirables, as well as tweak and disable various gameplay features of Minecraft.
+WorldGuard-OG is a soft fork of [WorldGuard](https://github.com/EngineHub/WorldGuard) maintained by [TrueOG Network](https://true-og.net) for 1.19.4. WorldGuard lets you and players guard areas of land against griefers and undesirables, as well as tweak and disable various gameplay features of Minecraft.
 
 * Block creeper and wither block damage, falling damage, etc.
 * Disable fire spread, lava fire spread, ice formation, Endermen picking up blocks, etc.
