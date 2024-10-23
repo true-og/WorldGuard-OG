@@ -2,7 +2,7 @@
     <img src="worldguard-logo.svg" alt="WorldGuard" width="400" /> 
 </h1>
 
-WorldGuard lets you and players guard areas of land against griefers and undesirables, as well as tweak and disable various gameplay features of Minecraft.
+    WorldGuard-OG is a soft fork of [WorldGuard](https://github.com/EngineHub/WorldGuard) maintained by [TrueOG Network](https://true-og.net) for 1.19.4. WorldGuard lets you and players guard areas of land against griefers and undesirables, as well as tweak and disable various gameplay features of Minecraft.
 
 * Block creeper and wither block damage, falling damage, etc.
 * Disable fire spread, lava fire spread, ice formation, Endermen picking up blocks, etc.
@@ -15,33 +15,11 @@ WorldGuard lets you and players guard areas of land against griefers and undesir
 * Add useful commands like an immediate "STOP ALL FIRE SPREAD" command
 * Enable only features you want! Everything is off by default
 
+**Building:**
+
+```./gradlew build```
+
+Product jar will be in worldguard-bukkit/build/libs.
+
 WorldGuard is open source and is available under the GNU Lesser
 General Public License v3.
-
-A Bukkit server implementation (such as [Paper](https://papermc.io)) and the [WorldEdit plugin](https://dev.bukkit.org/projects/worldedit) are required to use WorldGuard. You can get a release copy of WorldGuard from the [BukkitDev site](https://dev.bukkit.org/projects/worldguard).
-
-Compiling
----------
-
-The project is written for Java 17 and our build process makes use of
-[Gradle](http://gradle.org).
-
-Dependencies are automatically handled by Gradle.
-
-Contributing
-------------
-
-We happily accept contributions, especially through pull requests on GitHub.
-
-Please read CONTRIBUTING.md for important guidelines to follow.
-
-Submissions must be licensed under the GNU Lesser General Public License v3.
-
-Links
------
-
-* [Homepage](https://enginehub.org/worldguard)
-* [Discord](https://discord.gg/enginehub)
-* [Issue tracker](https://github.com/EngineHub/WorldGuard/issues)
-* [Continuous integration](https://builds.enginehub.org) [![Build Status](https://ci.enginehub.org/app/rest/builds/buildType:bt11,branch:master/statusIcon.svg)](http://ci.enginehub.org/viewType.html?buildTypeId=bt11&guest=1)
-* [End-user documentation](https://worldguard.enginehub.org/en/latest/)
