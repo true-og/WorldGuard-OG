@@ -24,7 +24,7 @@ dependencies {
     "runtimeOnly"("org.spigotmc:spigot-api:1.20-R0.1-SNAPSHOT") {
         exclude("junit", "junit")
     }
-    "api"("com.sk89q.worldedit:worldedit-bukkit:${Versions.WORLDEDIT}") { isTransitive = false }
+	"api"("com.sk89q.worldedit:worldedit-bukkit:${Versions.WORLDEDIT}") { isTransitive = false }
     "implementation"("com.google.guava:guava:${Versions.GUAVA}")
     "compileOnly"("com.sk89q:commandbook:2.3") { isTransitive = false }
     "shadeOnly"("io.papermc:paperlib:1.0.8")
